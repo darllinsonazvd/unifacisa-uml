@@ -3,7 +3,6 @@ autoactivation on
 
 participantgroup #lightblue **Atores**
 actor Cliente
-fontawesome6solid f3ce Aplicativo Banco
 end
 
 participantgroup #lightgreen **Módulos**
@@ -14,6 +13,8 @@ fontawesome6solid f233 Módulo Pagamento
 end
 
 participantgroup #pink **Serviços\nexternos**
+fontawesome6solid f3ce Aplicativo Banco
+
 fontawesome6solid f53c Mercado Pago
 end
 
