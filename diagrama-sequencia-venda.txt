@@ -22,9 +22,9 @@ Cliente->Módulo Autenticação:Envia credenciais de autenticação
 Cliente<--Módulo Autenticação:Confirmação de login
 Cliente->Módulo Estoque:Consulta produtos disponíveis
 Cliente<--Módulo Estoque:Devolve lista de produtos\ndisponíveis
-Cliente->Módulo Vendas:Seleciona produtos e envia pedido
+Cliente->Módulo Vendas:Seleciona produtos,\npreenche endereço de entrega e\nenvia pedido
 
-Módulo Vendas->Módulo Estoque:Consulta disponibilidade no estoque
+Módulo Vendas->Módulo Estoque:Consulta disponibilidade\nde produtos no estoque
 alt if (Produtos disponíveis no estoque)
 Módulo Vendas<--Módulo Estoque:Todos os produtos disponiveis no estoque
 Cliente<--Módulo Vendas:Confirmação de produtos disponiveis
